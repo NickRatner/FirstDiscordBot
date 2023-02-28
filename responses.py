@@ -6,6 +6,9 @@ def get_response(message):
     if p_message == 'hello':
         return 'hey there'
 
+    if p_message == 'hey hey hey':
+        return 'https://i.pinimg.com/originals/11/a1/06/11a1067f0e1e969a1501ec33d8373a0b.jpg'
+
     if p_message == 'flip a coin':
         if random.randint(0,1) == 0:
             return 'heads'

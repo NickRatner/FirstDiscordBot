@@ -32,7 +32,7 @@ def run_discord_bot():
 
         print(f'{username} said: "{user_message}"({channel})')
 
-        if user_message[0] == '?':  #this makes a private message
+        if user_message[0] == '?':  #this indicates a private message to my bot
             user_message = user_message[1:]
             await send_message(message, user_message, is_private=True)
         else:
